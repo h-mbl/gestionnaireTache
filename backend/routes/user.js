@@ -1,5 +1,6 @@
 const router = require('express').Router();
-const User = require('../models/user');
+const paths = require('../paths');
+const User = require(path.join(paths.models, 'user'));
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const validator = require('validator');

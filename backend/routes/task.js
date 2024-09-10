@@ -1,6 +1,9 @@
 const router = require('express').Router();
-const Task = require('../models/task');
-const User = require('../models/user');
+const paths = require('../paths');
+const User = require(path.join(paths.models, 'user'));
+const Task = require(path.join(paths.models, 'task'));
+//const Task = require('../models/task');
+//const User = require('../models/user');
 const { authToken } = require('../middleware/authController');
 
 require('dotenv').config();
