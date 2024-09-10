@@ -1,0 +1,28 @@
+
+.top-bar {
+    font-family: "jaf-cupidus-text", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    max-width: 97.4%; 
+    margin: 0 auto; 
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.search-bar {
+    margin-right: 5px;
+    border-radius: 0.75rem;
+    color: black;
+}
+

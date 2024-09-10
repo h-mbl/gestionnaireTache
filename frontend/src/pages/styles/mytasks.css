@@ -1,0 +1,32 @@
+
+
+
+.add-icon:hover {
+    color: #F3F4F6; 
+}
+
+.search-bar {
+    margin-left: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+.prev-next {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev-next:disabled {
+    cursor: not-allowed;
+}
+
+.numbering {
+    font-size: 0.8em;
+    margin: 10px;
+
+}
