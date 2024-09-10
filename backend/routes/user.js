@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const path = require('path');
 const paths = require('../paths');
 const User = require(path.join(paths.models, 'user'));
 const bcrypt = require('bcryptjs');
