@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const validator = require('validator');
 const path = require('path');
-const User = require(path.resolve(__dirname, 'models', 'user'));
+const User = require(path.resolve(__dirname, '..', 'models', 'user'));
 require('dotenv').config();
 
 // INSCRIPTION

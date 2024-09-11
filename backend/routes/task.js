@@ -10,9 +10,9 @@ Tu peux le transformer en un chemin absolu avec path.resolve() :
 const filePath = path.resolve(__dirname, 'uploads', 'myfile.txt');
 * */
 
-const Task = require(path.resolve(__dirname, 'models', 'task'));
-const User = require(path.resolve(__dirname, 'models', 'user'));
-const { authToken } = require(path.resolve(__dirname, 'middleware', 'authController'));
+const Task = require(path.resolve(__dirname, '..',  'models', 'task'));
+const User = require(path.resolve(__dirname, '..',  'models', 'user'));
+const { authToken } = require(path.resolve(__dirname, '..',  'middleware', 'authController'));
 
 require('dotenv').config();
 
