@@ -44,33 +44,52 @@ const Login = () => {
     }
 };
     return (
-        <div className="login-container">
-            <div className="login-box">
-                <div className="login-header">Connexion</div>
-                <input
-                    type="text"
-                    placeholder="pseudo"
-                    className="login-input"
-                    name="username"
-                    value={Data.username}
-                    onChange={change}
-                    required
-                />
-                <input
-                    type="password"
-                    placeholder="mot de passe"
-                    className="login-input"
-                    name="password"
-                    value={Data.password}
-                    onChange={change}
-                    required
-                />
-                <div className="login-footer">
-                    <button className="login-button" onClick={submit}>Connexion</button>
-                    <Link to="/signup" className="signup-link">Pas de compte ? Inscrivez vous !</Link>
-                </div>
+        <>
+        <div style="text-align: center; padding: 50px;">
+            <h1>🚧 Site en Maintenance 🚧</h1>
+            <p>
+                la plateforme est actuellement en maintenance en raison de la configuration des
+                chemins d'accès sur le serveur d'hebergement.
+            </p>
+            <p>
+                En attendant, si vous souhaitez explorer le code source ou utiliser la plateforme localement, vous
+                pouvez <strong>forker</strong>
+                le repository directement depuis GitHub à l'adresse suivante :
+            </p>
+            <p>
+                <a href="https://github.com/h-mbl/gestionnaireTache" target="_blank">
+                    <strong>Forker le repository sur GitHub</strong>
+                </a>
+            </p>
+        </div>
+    <div className="login-container">
+        <div className="login-box">
+            <div className="login-header">Connexion</div>
+            <input
+                type="text"
+                placeholder="pseudo"
+                className="login-input"
+                name="username"
+                value={Data.username}
+                onChange={change}
+                required
+            />
+            <input
+                type="password"
+                placeholder="mot de passe"
+                className="login-input"
+                name="password"
+                value={Data.password}
+                onChange={change}
+                required
+            />
+            <div className="login-footer">
+                <button className="login-button" onClick={submit}>Connexion</button>
+                <Link to="/signup" className="signup-link">Pas de compte ? Inscrivez vous !</Link>
+            </div>
             </div>
         </div>
+            </>
     );
 };
 
