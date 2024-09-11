@@ -1,7 +1,18 @@
 const router = require('express').Router();
-const Task = require('../models/task');
-const User = require('../models/user');
-const { authToken } = require('../middleware/authController');
+//const Task = require('../models/task');
+//const User = require('../models/user');
+//const { authToken } = require('../middleware/authController');
+const path = require('path');
+/*
+const path = require('path');
+const filePath = './uploads/myfile.txt';
+Tu peux le transformer en un chemin absolu avec path.resolve() :
+const filePath = path.resolve(__dirname, 'uploads', 'myfile.txt');
+* */
+
+const Task = require(path.resolve(__dirname, 'models', 'task'));
+const User = require(path.resolve(__dirname, 'models', 'user'));
+const { authToken } = require(path.resolve(__dirname, 'middleware', 'authController'));
 
 require('dotenv').config();
 

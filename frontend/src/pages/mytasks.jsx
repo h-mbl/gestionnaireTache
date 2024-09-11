@@ -1,13 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import Tache from '../components/Home/taches';
+//import Tache from '../components/Home/taches';
+import Tache from 'components/Home/taches';
 import { IoAddCircleSharp } from 'react-icons/io5';
-import Input from '../components/Home/input';
-import SearchTasks from '../components/Home/searchTasks'; 
-import './styles/mytasks.css';
+//import Input from '../components/Home/input';
+import Input from 'components/Home/input';
+//import SearchTasks from '../components/Home/searchTasks';
+import SearchTasks from 'components/Home/searchTasks';
+//import './styles/mytasks.css';
+import 'pages/styles/mytasks.css';
 
 import axios from 'axios';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import useDebounce from '../components/Home/useDebounce';
+//import useDebounce from '../components/Home/useDebounce';
+import useDebounce from 'components/Home/useDebounce';
 
 const MyTasks = () => {
     const [Visibility, setVisibility] = useState("hidden");

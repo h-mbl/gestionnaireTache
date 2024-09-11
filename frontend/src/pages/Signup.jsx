@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
-import './styles/Login.css';
+//import './styles/Login.css';
+import 'pages/styles/Login.css';
 import { useState } from 'react';
 import axios from 'axios';
 import { useSelector} from 'react-redux';

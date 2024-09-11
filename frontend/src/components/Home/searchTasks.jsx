@@ -1,5 +1,6 @@
 import React from 'react';
-import '../styles/searchTasks.css';
+//import 'styles/searchTasks.css';
+import 'components/styles/searchTasks.css'
 
 const SearchTasks = ({ onSearch }) => {
     const handleInputChange = (event) => {

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { RxCross2 } from 'react-icons/rx';
-import '../styles/input.css';
+//import '../styles/input.css';
+import 'components/styles/input.css'
 import axios from 'axios';
 
 const Input = ({ Visibility, setVisibility, updatedData, setUpdatedData }) => {

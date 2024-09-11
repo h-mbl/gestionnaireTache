@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './styles/Login.css'; 
+//import './styles/Login.css';
+import 'pages/styles/Login.css';
 import { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import { authActions } from '../store/auth';
+//import { authActions } from '../store/auth';
+import { authActions } from 'store/auth';
 import { useDispatch, useSelector } from 'react-redux';
 
 const Login = () => {

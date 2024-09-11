@@ -1,20 +1,22 @@
 import React, { useEffect, useInsertionEffect } from 'react';
-import './App.css';
-import Home from './pages/home';
+//import './App.css';
+//import Home from './pages/home';
+import 'App.css';
+import Home from 'pages/home';
 import { 
   Routes, 
   Route, 
   useNavigate } from 'react-router-dom';
-import MyTasks from './pages/mytasks';
-import Important from './pages/Important';
-import Completed from './pages/Completed';
-import Incomplete from './pages/Incomplete';
-import Signup from './pages/Signup';
-import Login from './pages/Login';
-import Public from './pages/public';
+import MyTasks from 'pages/mytasks';
+import Important from 'pages/Important';
+import Completed from 'pages/Completed';
+import Incomplete from 'pages/Incomplete';
+import Signup from 'pages/Signup';
+import Login from 'pages/Login';
+import Public from 'pages/public';
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
-import { authActions } from './store/auth';
+import { authActions } from 'store/auth';
 
 
 

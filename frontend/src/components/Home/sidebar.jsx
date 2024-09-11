@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import '../styles/sidebar.css';
+//import '../styles/sidebar.css';
+import 'components/styles/sidebar.css'
 import { CgNotes } from 'react-icons/cg';
 import { IoAlertCircleSharp } from 'react-icons/io5';
 import { MdOutlineDoneOutline } from "react-icons/md";
 import { TbNotebookOff } from 'react-icons/tb';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { authActions } from '../../store/auth.js';
+//import { authActions } from '../../store/auth.js';
+import {authActions} from 'store/auth'
 import { FaGlobe } from "react-icons/fa";
 import axios from 'axios';
 

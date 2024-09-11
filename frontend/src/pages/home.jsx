@@ -1,6 +1,8 @@
 import React from 'react';
-import './styles/home.css';
-import Sidebar from '../components/Home/sidebar';
+//import './styles/home.css';
+import 'pages/styles/home.css'
+//import Sidebar from '../components/Home/sidebar';
+import Sidebar from 'components/Home/sidebar'
 import { Outlet } from 'react-router-dom';
 
 const Home = () => {

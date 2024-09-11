@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Tache from '../components/Home/taches';
+//import Tache from '../components/Home/taches';
+import Tache from 'components/Home/taches'
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import './styles/topBar.css';
+//import './styles/topBar.css';
+import 'pages/styles/topBar.css'
 
 const Completed = () => {
     const [Data, setData] = useState([]); 

@@ -1,6 +1,8 @@
 .app-container {
   padding: 0.5rem;
-  background-image: url('./assets/pexels.jpg');
+  background-image: url('assets/pexels.jpg');
   background-size: cover;
   background-position: center;
 }
+
+/* background-image: url('./assets/pexels.jpg'); */

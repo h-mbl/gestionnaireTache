@@ -4,7 +4,8 @@ import { MdDeleteOutline } from 'react-icons/md';
 import { GoPencil } from "react-icons/go";
 import { FaGlobe } from "react-icons/fa";
 import axios from 'axios';
-import '../styles/taches.css';
+//import '../styles/taches.css';
+import 'components/styles/taches.css'
 
 const Taches = ({home, setVisibility, data, setUpdatedData, showButtons = true }) => {
     const headers = { id: localStorage.getItem("id"), authorization: `Bearer ${localStorage.getItem("token")}`, };
