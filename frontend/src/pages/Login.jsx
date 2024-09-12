@@ -57,11 +57,11 @@ const Login = () => {
                         La plateforme est actuellement en maintenance en raison de la configuration des chemins d'accès sur le serveur d'hébergement.
                     </p>
                     <p>
-                        En attendant, si vous souhaitez explorer le code source ou utiliser la plateforme localement, vous pouvez <strong>forker</strong> le repository directement depuis GitHub à l'adresse suivante :
+                        En attendant, si vous souhaitez explorer le code source ou utiliser la plateforme localement, vous pouvez <strong>forker/cloner</strong> le repository directement depuis GitHub à l'adresse suivante :
                     </p>
                     <p>
                         <a href="https://github.com/h-mbl/gestionnaireTache" target="_blank" rel="noopener noreferrer">
-                            <u><strong>Forker le repository sur GitHub</strong></u>
+                            <u><strong>Forker/Cloner le repository sur GitHub</strong></u>
                         </a>
                     </p>
                     <br />
