@@ -93,6 +93,7 @@ const Login = () => {
                         <li><strong>Lancez l'application en mode développement :</strong> <code>npm run dev</code></li>
                         <li><strong>Lancez le backend en mode développement :</strong> <code>npm run dev-backend</code></li>
                         <li><strong>Lancez le frontend en mode développement :</strong> <code>npm run dev-frontend</code></li>
+                        <li><strong>Changer la variable isMaintance en False : </strong>   const [isMaintenance, setIsMaintenance] = useState(<strong>false</strong>); dans <strong>frontend/src/pages/Login.jsx</strong></li>
                     </ol>
                 </div>
             ) : (
