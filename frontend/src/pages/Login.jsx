@@ -54,7 +54,7 @@ const Login = () => {
                 <div style={{ textAlign: 'center', padding: '50px' }}>
                     <h1>🚧 Site en Maintenance 🚧</h1>
                     <p>
-                        La plateforme est actuellement en maintenance en raison de la configuration des chemins d'accès sur le serveur d'hébergement.
+                        La plateforme est actuellement en maintenance sur le serveur d'hébergement.
                     </p>
                     <p>
                         En attendant, si vous souhaitez explorer le code source ou utiliser la plateforme localement, vous pouvez <strong>forker/cloner</strong> le repository directement depuis GitHub à l'adresse suivante :
